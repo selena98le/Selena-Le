@@ -1,0 +1,147 @@
+﻿<html>
+<head>
+    <style>
+        .myDiv
+        {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="myDiv">
+    <form>
+        <!--I added a clock at the top-->
+        <p id="clock"></p>
+        <script>
+            var myVar = setInterval(Timer, 0000);
+            function Timer()
+            {
+                var d = new Date();
+                document.getElementById("clock").innerHTML = d.toLocaleTimeString();
+            }
+        </script>
+        <table border-collapse: collapse; cellpadding="50" ; style="font-family:'Trebuchet MS'">
+            <tr bgcolor="ccfff5">
+                <td rowspan="2">
+                    <h1>SELENA LE</h1>
+                    <table>
+                        <tr>
+                            <td colspan="2">
+                                <center>
+                                    <img src="/Users/duyenle/Desktop/CS M01/Image/Selena Le.jpg" height="150" width="150" style="vertical-align:middle">
+                                </center>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span style='font-size:35px;'>&#9993;</span>
+                            </td>
+                            <td>
+                                <!--I create a pop-up box-->
+                                <p onclick="dosomething();">selena98@gmail.com</p>
+                                <script>function dosomething()
+                                    {
+                                        alert("Welcom to my resume");
+                                    }
+                                </script>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span style='font-size:25px;'>&#9743;</span>
+                            </td>
+                            <td>
+                                <p>747-235-4175</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span style='font-size:20px;'>&#127968;</span>
+                            </td>
+                            <td>
+                                <p>Chatsworth,CA-91311</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr bgcolor="e6fffa">
+                <td>
+                    <h2><b><u><i>PROFESSIONAL SUMMARY</i></u></b></h2>
+                    <p>
+                        Experienced computer assistant with over 3 years of experience in BL boutique. Excellent reputation for resolving problems, improving customer satisfaction, and driving overall operational improvements. Consistently saved costs while increasing profits.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="e6fffa">
+                    <h2><b><u><i>SKILLS</i></u></b></h2>
+                    <ul>
+                        <li>Shipping management</li>
+                        <li>Package tracking</li>
+                        <li>Customer service</li>
+                        <li>MS Office</li>
+                        <li>Discount negotiation</li>
+                        <li>Communications</li>
+                        <li>Problem resolution</li>
+                        <li>Technical issues analysis</li>
+                        <li>Mac systems</li>
+                        <li>Desktop support</li>
+                        <li>Data recovery</li>
+                    </ul>
+                    <h2>
+                        <b><u><i>EDUCATION></i></u></b>
+                    </h2><ol>
+                        <li>
+                            <p style="font-size:initial"><b>Tran Phu Highschool</b></p>
+                            <p>Vietnam</p>
+                            <ul>
+                                <li>2012 - 7/2015</li>
+                            </ul>
+                            <p><i>Highschool Diploma</i></p>
+                        </li>
+                        <li>
+                            <p style="font-size:initial"><b>Hoa Sen University</b></p>
+                            <p>Vietnam</p>
+                            <ul>
+                                <li>9/2015 - 2017</li>
+                            </ul>
+                            <p><i>Associate of Science</i></p>
+                        </li>
+                        <li>
+                            <p style="font-size:initial"><b>Moorpark College</b></p>
+                            <p>Moorpark, CA </p>
+                            <ul>
+                                <li>2018 - present</li>
+                            </ul>
+                            <p><i>Associate of Science</i></p>
+                        </li>
+                    </ol>
+                </td>
+                <td>
+                    <h2><u><b><i>WORK HISTORY</i></b></u></h2>
+                    <p style="font-size:initial"><b>Motorbike part - Cashier</b></p>
+                    <p><i>Ho Chi Minh, Vietnam</i></p> 01/2015 - 12/2017
+                    <ul>
+                        <li>Restocked, arranged and organized merchandise in front lanes to drive product sales</li>
+                        <li>Checked prices for customers and processed items sold by scanning barcodes</li>
+                        <li>Helped customers complete purchases, locate items and join reward programs to promote loyalty, satisfaction and sales numbers</li>
+                        <li>Helped over 30 guests every day by processing payments, monitoring reward accounts and resolving service concerns</li>
+                    </ul>
+                    <p style="font-size:initial"><b>BL Boutique - Online Store Manager</b></p>
+                    <p><i>Chatsworth, CA</i></p> 06/2018 - Current
+                    <ul>
+                        <li>Responded to customer issues and resolved complaints by leveraging expert knowledge</li>
+                        <li>Monitored social media and online sources for industry trends</li>
+                        <li>Increased customer satisfaction by resolving issues</li>
+                        <li>Transported to customer locations</li>
+                        <li>Collaborated with supply vendors and distributors to purchase supplies in bulk with favorable discounts</li>
+                        <li>Increased sales by 20-50%</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
